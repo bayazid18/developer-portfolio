@@ -293,6 +293,9 @@ textarea {
 .color-primary {
   color: #ffad5a;
 }
+.color-secondary {
+  color: #ff5959;
+}
 .bg-1 {
   background: rgba(79, 157, 166, 0.1);
 }
@@ -431,22 +434,7 @@ textarea {
   bottom: -64px;
 }
 
-/* footer section css */
-footer {
-  background: #0b0d17;
-  padding: 40px 15px;
-}
-footer .logo {
-  margin-bottom: 24px;
-}
-footer p {
-  color: #fff;
-  font-size: 14px;
-  color: #d9dbe1;
-  margin: 0;
-}
 /* contact section css */
-
 .contact {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -483,6 +471,26 @@ footer p {
 .address-list li .icon img {
   width: 26px;
   filter: invert(1);
+}
+
+/* footer section css */
+footer {
+  background: #0b0d17;
+  padding: 40px 15px;
+}
+
+footer p {
+  color: #fff;
+  font-size: 14px;
+  color: #d9dbe1;
+  margin: 0;
+}
+footer .brand {
+  font-size: 36px;
+  line-height: 44px;
+  font-family: "Lobster", cursive;
+  color: #fff;
+  margin-bottom: 20px;
 }
 
 /* some basic mobile responsive */
